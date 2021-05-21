@@ -6,6 +6,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="./master.css">
+    <script src="main.js" charset="utf-8"></script>
     <title>Frontend Mentor | Insure landing page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,13 +17,21 @@
   </head>
   <body>
     <header>
-      <img src="images\logo.svg" alt="insure">
-      <nav>
-        <ul>
-          <li>How we work</li>
-          <li>Blog</li>
-          <li>Account</li>
-          <li>View plans</li>
+    <div class="nav--header">
+      <img src="images/logo.svg" alt="insure">
+      <img src="images/icon-hamburger.svg" class="btn" alt="menu button">
+    </div>
+      <nav class="nav">
+        <div class="nav--header">
+          <img src="images/logo.svg" alt="insure">
+          <img src="images/icon-close.svg" alt="close button" class="btn">
+        </div>
+
+        <ul class="nav__list">
+          <li class="nav__list--item">How we work</li>
+          <li class="nav__list--item">Blog</li>
+          <li class="nav__list--item">Account</li>
+          <li class="nav__list--item">View plans</li>
         </ul>
       </nav>
     </header>

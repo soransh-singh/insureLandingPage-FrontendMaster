@@ -20,4 +20,42 @@ a {
   text-decoration: none;
 }
 
+header {
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: max(600px, 100%);
+  transform: translate(-100%, -20%);
+  transition: all 0.2s linear;
+  border-radius: 10rem;
+  background-color: #2d2640;
+}
+
+.nav--open {
+  transform: none;
+  border-radius: 0;
+}
+
+.nav--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+.nav__list {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+.nav__list--item {
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
 /*# sourceMappingURL=master.css.map */
